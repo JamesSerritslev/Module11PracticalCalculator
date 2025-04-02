@@ -8,10 +8,8 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
         
-        <!-- Display -->
         <TextBox x:Name="Display" Grid.Row="0" IsReadOnly="True" Margin="10" FontSize="24" HorizontalAlignment="Stretch" VerticalAlignment="Center" />
         
-        <!-- Buttons Grid -->
         <Grid Grid.Row="1" Margin="10">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*" />
@@ -27,7 +25,6 @@
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
             
-            <!-- Number Buttons -->
             <Button Content="7" Grid.Row="0" Grid.Column="0" Click="NumberButton_Click" />
             <Button Content="8" Grid.Row="0" Grid.Column="1" Click="NumberButton_Click" />
             <Button Content="9" Grid.Row="0" Grid.Column="2" Click="NumberButton_Click" />
